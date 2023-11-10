@@ -25,7 +25,7 @@ j++;
 }*/
 
 //forEach
-let test=[]
+/*let test=[]
 let index=0;
 ar.forEach(function (num,index)
 {
@@ -34,3 +34,13 @@ ar.forEach(function (num,index)
     index++;
 });
 console.log(test)
+*/
+
+//Every() - It returns boolean value. If the condition satisfies for all the element then it returns true
+// else false.
+let res=ar.every(isNumber)
+function isNumber(test)
+{
+    return test;
+}
+console.log(res)
