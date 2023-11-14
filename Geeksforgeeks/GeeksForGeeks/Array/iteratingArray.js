@@ -8,7 +8,8 @@ reduce()
 some()
 */
 
-var ar= new Array ([23,'Nagarajan',1991,2023,45,2,'stringgg'])
+var ar= [23,'Nagarajan',1991,2023,45,2,'stringgg']
+var num = [5,6,2,3]
 //for loop
 /*for (let i=0;i<ar.length;i++)
 {
@@ -38,9 +39,35 @@ console.log(test)
 
 //Every() - It returns boolean value. If the condition satisfies for all the element then it returns true
 // else false.
+/*
 let res=ar.every(isNumber)
 function isNumber(test)
 {
     return test;
 }
 console.log(res)
+*/
+//reduce
+//This is used when we want to return single value.
+/*let values = num.reduce((acc,cur)=>{
+return acc+cur
+},0);
+console.log(values) 
+/*const numbers = [1, 2, 3, 4, 5];
+
+const sum = numbers.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue;
+}, 0);
+console.log(sum) */
+
+//some -
+/**
+ * return value: true
+ * It checks whether atleast one value passes the condition
+ */
+let bool = ar.some(test)
+function test(t)
+{
+    return typeof t === 'string'
+}
+console.log(bool)
