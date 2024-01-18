@@ -24,24 +24,32 @@
  *                                                              *
  ***************************************************************/
 
-console.log(ArithGeo([2,6,18,54]))
+console.log(ArithGeo([2,6,19,54]))
 
 function ArithGeo(ar){
     
     let diff = ar[1]-ar[0];
     let qut = ar[1]/ar[0]
-    for(let i = 1;i<ar.length;i++){
+    for(let i = 1;i<ar.length-1;i++){
         let diffNum = ar[i+1] - ar[i]
         let qutNum = ar[i+1]/ar[i]
-        if(diff == diffNum || qut== qutNum){
-            continue;
-        }
-        if((i==ar.length) && (diff==diffNum)){
+        if(diff == diffNum){
+          if(i+1==ar.length-1){
             return 'Arith'
+          }
+          else{
+            continue;
+          }
         }
-        else if((i==ar.length) && (qut==qutNum)){
-            return 'Geo'
-        }
+       else if(qut == qutNum){
+        if(i+1==ar.length-1){
+          return 'Geo'
+      }
+      else{
+        continue;
+      }
+       }
+      
       else
       {
         return -1;
