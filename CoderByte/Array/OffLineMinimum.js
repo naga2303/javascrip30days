@@ -26,12 +26,25 @@
  * challenge.                                                   *
  ***************************************************************/
 
-console.log(OffLineMinimum([["1","2","E","E","3"]]))
+console.log(OffLineMinimum(["4","E","1","E","2","E","3","E"]))
 
 function OffLineMinimum(arr){
     let tempAr = new Array()
-    let index =0
-    for(let i =index;i<arr.length;i++){
-        
+    let orgAr = new Array()
+    
+    for(let i =0;i<arr.length;i++){
+        if(arr[i]=="E" && i>0){
+            if(tempAr.length>0){
+                tempAr.forEach((e)=>{
+                    orgAr.push(e)
+                })
+            }
+            tempAr.length=0;
+        }
+        else{
+            tempAr.push(arr[i])
+            //console.log(tempAr)
+        }
     }
+    return orgAr;
 }
