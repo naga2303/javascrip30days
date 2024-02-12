@@ -32,8 +32,16 @@
 console.log(ArrayMatching( ["[5, 2, 3]", "[2, 2, 3, 10, 6]"]))
 
 function ArrayMatching(arr){
-    let first_Array = arr[0]
-    let second_Array = arr[1]
-    console.log(first_Array)
-    console.log(second_Array)
+    let first_Array = arr[0].slice(1,-1).split(",").map(Number)
+    let second_Array = arr[1].slice(1,-1).split(",").map(Number)
+    let sum = new Array()
+    //console.log(first_Array.length)
+    //console.log(second_Array.length)
+
+   //console.log(Math.max(first_Array.length,second_Array.length))
+
+   for(let i=0 ;i<Math.max(first_Array.length,second_Array.length);i++){
+     sum.push((first_Array[i] || 0) + (second_Array[i] || 0))
+   }
+   return sum.join("-")
 }

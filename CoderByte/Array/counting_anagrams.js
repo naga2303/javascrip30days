@@ -29,11 +29,24 @@
  *                                                              *
  ***************************************************************/
 
-console.log(CountingAnagrams("aa aa odg dog gdo"))
+console.log(CountingAnagrams(["aa aa odg dog gdo"]))
+
 
 function CountingAnagrams(str){
     let anagramCount = 0;
 
-    for ()
-    return anagramCount;
+//  console.log(str.split(" "))
+let ar  = new Array()
+ar = str[0].split(" ").sort()
+
+let sortedArrays = ar.map(ele => ele.split("").sort().join(""))
+let st = new Set()
+for(let i =0;i<sortedArrays.length;i++){
+    for(let j=i+1;j<sortedArrays.length;j++){
+        if(sortedArrays[i]==sortedArrays[j]){
+          st.add(sortedArrays[i])
+        }
+    } 
+}
+    return st.size;
 }
