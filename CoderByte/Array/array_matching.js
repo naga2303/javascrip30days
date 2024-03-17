@@ -34,6 +34,16 @@ console.log(ArrayMatching( ["[5, 2, 3]", "[2, 2, 3, 10, 6]"]))
 function ArrayMatching(arr){
     let first_Array = arr[0]
     let second_Array = arr[1]
-    console.log(first_Array)
-    console.log(second_Array)
+     let fArray = JSON.parse(first_Array).filter(Number.isFinite)
+     let sArray = JSON.parse(second_Array).filter(Number.isFinite)
+    let final_Array = [];
+    
+    for(let i =0 ; i< Math.max(fArray.length, sArray.length);i++){
+        final_Array.push((fArray[i] || 0) + (sArray[i] || 0))
+        //result.push(arr1[i] + (arr2[i] || 0)); 
+    }
+    console.log (final_Array.join("-"))
+    
+   
 }
+//https://stackoverflow.com/questions/50170614/js-sum-of-two-arrays-where-arrays-can-be-of-unequal-length
