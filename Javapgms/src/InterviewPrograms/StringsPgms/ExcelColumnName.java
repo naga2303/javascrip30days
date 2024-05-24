@@ -8,18 +8,14 @@ public class ExcelColumnName
             alpha+=ch;
         }
         char [] charc = alpha.toCharArray();
-        int n=283;
+        int n=28;
         String str="";
         if(n<27){
             System.out.println(charc[n-1]);
         }
-        else {
-            int len = n%26;
-            System.out.println(len);
-            for(int i=0;i<len;i++){
-                str+=charc[len-1];
-            }
-        }
+       while(n>0){
+           n=n/26;
+       }
         System.out.println(str);
     }
 }
