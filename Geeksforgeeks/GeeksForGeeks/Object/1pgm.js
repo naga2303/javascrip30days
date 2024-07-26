@@ -11,5 +11,7 @@ const person = {
     }    
 }
 
+
+
 console.log(person.locations.State)
 console.log(person.age)
