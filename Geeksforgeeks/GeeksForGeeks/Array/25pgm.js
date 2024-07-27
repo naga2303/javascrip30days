@@ -8,3 +8,5 @@
     outAr.push(smele || -1)
  })
  console.log(...outAr)
+
+ 

@@ -15,8 +15,10 @@
 
 //console.log('First')
 setTimeout(test,10)
-function test()
+async function test()
 {
+    
+    
     console.log('second')
 }
 console.log('Still First')

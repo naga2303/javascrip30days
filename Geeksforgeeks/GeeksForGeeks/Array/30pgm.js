@@ -4,5 +4,5 @@ let value = 3;
 console.log(fs(arr,value))
 function fs(a,v)
 {
-    return a.search(v)
+    return a.includes(v)
 }

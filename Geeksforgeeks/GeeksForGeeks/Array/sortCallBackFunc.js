@@ -4,3 +4,4 @@ ar.sort(function (a,b){
     
     return b-a;
 })
+console.log(ar.includes(25))
