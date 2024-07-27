@@ -14,17 +14,21 @@ public class LongSubWithoutRepeating
         String sub = "";
         int len=0;
 
-        for(int i=0;i<s1.length;i++){
-            String temp="";
-            if(!s1.charAt(i).contains(temp))
+        for(int i=0;i<word.length();i++){
+            String temp = "";
+
+            if(temp.length()==0){
+                temp=word.substring(i, i);
+            }
+            if(!(word.substring(i, i)).contains(temp))
             {
-                temp=temp+s1.charAt(i);
+                temp=temp+word.charAt(i);
             }
             else
             {
                 continue;
             }
-            if(i==s1.length-1)
+            if(i==word.length()-1)
             {
                 sub= temp;
                 len = sub.length();
