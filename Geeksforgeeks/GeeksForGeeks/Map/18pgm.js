@@ -11,7 +11,7 @@ let obj ={
 
 let valuess = Object.values(obj).filter(function (per){
     return (typeof per) ==='object'
-}).map(function (per){
-    return per;
 })
-console.log(valuess)
+console.log(valuess.forEach((vals)=>{
+    console.log(vals.join(' '))
+}))
