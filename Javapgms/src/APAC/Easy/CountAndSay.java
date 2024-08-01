@@ -1,4 +1,4 @@
-package APAC.Easy;
+package src.APAC.Easy;
 
 public class CountAndSay
 {
