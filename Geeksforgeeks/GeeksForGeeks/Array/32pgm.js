@@ -29,6 +29,8 @@ for (let i=1;i<arr.length;i++){
 console.log(el) 
 
 //using Map
+
+/*let m = new Map();
 /*
 let m = new Map();
 for (const i in arr)
@@ -36,4 +38,6 @@ for (const i in arr)
   if(!m.get(arr[i]))m.set(arr[i],1)
   else
     m.set(arr[i],1)
-}*/
+}
+console.log(m.values())*/
+

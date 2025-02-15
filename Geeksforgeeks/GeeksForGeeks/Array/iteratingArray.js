@@ -26,16 +26,16 @@ j++;
 }*/
 
 //forEach
-/*let test=[]
+let test=[]
 let index=0;
 ar.forEach(function (num,index)
 {
-    //console.log(num)
+    console.log(num)
     test.push(...num)
     index++;
 });
 console.log(test)
-*/
+
 
 //Every() - It returns boolean value. If the condition satisfies for all the element then it returns true
 // else false.
@@ -65,9 +65,9 @@ console.log(sum) */
  * return value: true
  * It checks whether atleast one value passes the condition
  */
-let bool = ar.some(test)
+/*let bool = ar.some(test)
 function test(t)
 {
     return typeof t === 'string'
 }
-console.log(bool)
+console.log(bool)*/

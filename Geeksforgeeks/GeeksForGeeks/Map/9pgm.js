@@ -15,6 +15,9 @@ return map;
 function callMap()
 {
     const map = createMap(obj)
-    console.log(map)
+    //console.log(map)
+    for(let [key,value] of map){
+        console.log(key+":"+value)
+    }
 }
 callMap()

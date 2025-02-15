@@ -9,7 +9,7 @@
 
        let dt1 = d1.getDate()
        let dt2 = d2.getDate()
-
+                              console.log(dt1);
        let day1 = d1.getDay()
        let day2 = d2.getDay()
 
