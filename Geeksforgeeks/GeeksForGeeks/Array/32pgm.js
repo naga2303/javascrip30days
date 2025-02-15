@@ -8,7 +8,7 @@ let arr = [
     7, 6, 0, 2, 1, 6, 8, 9, 5, 
 ]; 
 
-/*arr.sort((a,b)=>a-b)
+arr.sort((a,b)=>a-b)
 let count =1;
 let max =0;
 let el;
@@ -26,14 +26,14 @@ for (let i=1;i<arr.length;i++){
         el = arr[i]
     }
 }
-console.log(el) */
+console.log(el) 
 
 //using Map
-
+/*
 let m = new Map();
 for (const i in arr)
 {
   if(!m.get(arr[i]))m.set(arr[i],1)
   else
     m.set(arr[i],1)
-}
+}*/
