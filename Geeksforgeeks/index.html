@@ -1,0 +1,129 @@
+<html>
+    <head>
+        "Welcome to JS Exercises - github codeart = "https://github.com/Hardanish-Singh/CoderByte-Challenges-Solutions/blob/master/array/Distinct_List.js"
+    </head>
+    <body>
+        <h3>String Methods</h3>
+        <div>
+         <ul> 
+            <li>    charAt - characterIndex </li>
+            <li>charcodeAt  - returns unicode value </li>
+            <li>concat - combines two strings and return a new string.</li>
+            <li>indexof - return the index value of the first identified String</li>
+            <li>lastIndexof - returns the index value of the last occurrence.</li>
+            <li>match - used to match a regular expression against a string.</li>
+            <li>replace - used to find a match and replace the string.</li>
+            <li>search - executes the search for a match between a regular expression and the string.</li>
+            <li>slice - extracts a section of a string and returns new string.</li>
+            <li>substring() - It is used to fetch the part of the given string on the basis of the specified index.</li>
+            <li>toLowercase - converts the string into toLowercase</li>
+            <li>toUpperCase - converts the string into toUpperCase</li>
+            <li>split() - splits a string into substring array, then returns newly created array.</li>
+            <li>trim - removes whitespaces from left and right side of the string. </li>
+            </ul>
+        </div>
+         <h3>Array methods</h3>
+         <div>
+            <ul>
+            <li> concat - It return a new array that contains two or more merged arrays. </li>
+            <li>entries() - It creates a iterator object and a loop which traverses to key/value pair.</li>
+            <li>every() - It determines whether all the elements of the array satisfies the provided condition.</li>
+            <li>from() - It creates a new array carrying the exact copy of another array element.</li>
+            <li>filter() - It returns the new array containing the elements that pass the provided function condition.</li>
+            <li>find() - It return the first element of the give array that satisfies the condition.</li>
+            <li>findIndex() - It returns the index value of the first element of the given array that satisfies the condition.</li>
+            <li>forEach() - It invokes the function once for each value of the array.</li>
+            <li>includes() - It checks in the given array whether the specified element contains.</li>
+            <li>indexof() - It searches the specified element in the given array and returns the index of the first match.</li>
+            <li>join() - It joins the elements of the array as a string.</li>
+            <li>pop() - It removes and returns the last element of the array.</li>
+            <li>push() - It add the element in the last index of the array.</li>
+            <li>shift() - It removes and returns the first element of the array.</li>
+            <li>slice() - it return a new array containing the copy of that array.</li>
+            <li>splice() - It adds/removes elements to/from the given array.</li>
+            <li>Unshift() - It adds the element at the start of the given array.</li>
+            </ul>
+            </div>
+            <h3>Set Methods</h3>
+            <div>
+                <li>new Set - To create new set. Ex: const st1 = new Set() => {}, const s2 = new Set([1,23,1]) => {1,23} only
+                    unique values are allowed.
+                </li>
+                <h5>
+                    To access values
+                    const st1 = new Set([1,2,3])
+                    console.log(st1.values()) => {1,2,3}
+                </h5>
+                <h5>
+                    To check whether the set has a value
+                    const st1 = new Set([1,2,4])
+                    console.log(st1.has(4)) ==> returns boolean value
+                </h5>
+                <h5>
+                    Adding new elements - add()
+                    const st1 = new Set([1,2,3])
+                    st1.add(5)
+                    st1.add(6)
+                </h5>
+                <h5>
+                    Removing elements
+                    const st1 = new Set([1,2,3])
+                    st1.delete(2);
+                    console.log(st1.values()) => [1,3]
+                </h5>
+                <h5> To clear the whole values
+                    const st1 = new Set([1,2,3])
+                    st1.clear()
+                    console.log(st1.values()) => [] all the values will be cleared.
+                </h5>
+                <h5>
+                    Iterate sets
+                    const st1 = new Set([1,3,4])
+                    for(let i of st1)
+                {
+                    console.log(i)
+                }=> 1,3,4
+                </h5>
+                <h5>
+                    Set Size
+                    const st1 = new Set(1,2,3)
+                    console.log(st1.size()) // returns the number of elements in set1
+                </h5>
+                <h5>
+                    Entries - 
+                    const st1 - new Set(1,3,4,5)
+                    st1.entries() // return [value,value] for every 
+                    let entrs = st1.entries()
+                    console.log(entrs.next().values)
+                </h5>
+                <h5>
+                    keys
+                    It returns keys of the set. By default, the values are set as key itself. If the value is 50, then the key is also 50.
+                </h5>
+                <h5>
+                    forEach() - it executes the function for each element, in the insertion order.
+                    const st1 = new Set(1,2,4,5,6)
+                    st1.forEach(callBack[,thisargument])
+                </h5>
+                <h5>
+                    Weakset = It is also a type of set but it contains only objects, whereas set can contain any types like string, integer, arrays, objects etc.
+                </h5>
+
+                <h5> Weak Set Methods - add
+                    const wSet = new WeakSet()
+                    const obj1 = {a:1}
+                    wSet.add(obj1)
+                    console.log(wSet) // {{a:1}}
+                </h5>
+                <h5>
+                    Has in the Weakset
+                    console.log(wSet.has(obj1)) // return boolean values
+                </h5>
+                <h3> Weakset are not iteratable.</h3>
+                
+            </div>
+        <script src="../Geeksforgeeks/GeeksForGeeks/Promises/setTimeoutPromise.js"></script>
+    </body>
+
+
+</html>
