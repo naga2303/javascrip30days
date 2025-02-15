@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7317a2fb-240a-41e9-9553-69fa676d0af3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/javascrip30days.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cebeddaa-ed77-42ec-ac0a-d737dbc88b0b" name="Changes" comment="arrays">
+      <change beforePath="$PROJECT_DIR$/../javascrip30days" beforeDir="false" afterPath="$PROJECT_DIR$/../javascrip30days" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,38 +28,37 @@
     &quot;assignee&quot;: &quot;naga2303&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/naga2303/javascrip30days.git&quot;,
-    &quot;accountId&quot;: &quot;8458bd2f-f8ad-48ba-8c54-78fc65534a16&quot;
-  }
-}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="0988a149-b83c-48fe-9cc5-50ba97a5e82c" />
+        <option name="url" value="https://github.com/naga2303/javascrip30days.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
+  &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="2jpGsjr5kZWoaoyvADcYM2H8UFd" />
+  <component name="ProjectId" id="2fleIdX75JimM59PdUxHYF4oZ1W" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.LongSubWithoutRepeating.executor": "Debug",
-    "Application.LongestCommonPrefix.executor": "Run",
-    "Application.LongestPalindromicSubString.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Javapgms",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/nagarajan/GithubProjects"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Javapgms&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavascriptExercises/javascrip30days/Javapgms&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.LongestCommonPrefix">
-    <configuration name="LongSubWithoutRepeating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="APAC.Strings.LongSubWithoutRepeating" />
+}</component>
+  <component name="RunManager" selected="Application.SumTwoLarge">
+    <configuration name="CountNumberOfSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewPrograms.StringsPgms.CountNumberOfSubstring" />
       <module name="Javapgms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="APAC.Strings.*" />
+          <option name="PATTERN" value="InterviewPrograms.StringsPgms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="APAC.Strings.LongestCommonPrefix" />
+    <configuration name="LongestPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewPrograms.StringsPgms.LongestPrefix" />
       <module name="Javapgms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="APAC.Strings.*" />
+          <option name="PATTERN" value="InterviewPrograms.StringsPgms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +79,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromicSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="APAC.Strings.LongestPalindromicSubString" />
+    <configuration name="MinimumInsertionPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewPrograms.StringsPgms.MinimumInsertionPalindrome" />
       <module name="Javapgms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="APAC.Strings.*" />
+          <option name="PATTERN" value="InterviewPrograms.StringsPgms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewPrograms.HackerRank.StringIntro" />
+      <module name="Javapgms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InterviewPrograms.HackerRank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumTwoLarge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewPrograms.StringsPgms.SumTwoLarge" />
+      <module name="Javapgms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InterviewPrograms.StringsPgms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,82 +120,71 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestCommonPrefix" />
-        <item itemvalue="Application.LongestPalindromicSubString" />
-        <item itemvalue="Application.LongSubWithoutRepeating" />
+        <item itemvalue="Application.SumTwoLarge" />
+        <item itemvalue="Application.CountNumberOfSubstring" />
+        <item itemvalue="Application.StringIntro" />
+        <item itemvalue="Application.LongestPrefix" />
+        <item itemvalue="Application.MinimumInsertionPalindrome" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7317a2fb-240a-41e9-9553-69fa676d0af3" name="Changes" comment="" />
-      <created>1722076815428</created>
+      <changelist id="cebeddaa-ed77-42ec-ac0a-d737dbc88b0b" name="Changes" comment="" />
+      <created>1714380013318</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1722076815428</updated>
+      <updated>1714380013318</updated>
     </task>
+    <task id="LOCAL-00001" summary="arrays">
+      <option name="closed" value="true" />
+      <created>1714383520739</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714383520739</updated>
+    </task>
+    <task id="LOCAL-00002" summary="arrays">
+      <option name="closed" value="true" />
+      <created>1715948972604</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715948972604</updated>
+    </task>
+    <task id="LOCAL-00003" summary="arrays">
+      <option name="closed" value="true" />
+      <created>1716212238229</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716212238229</updated>
+    </task>
+    <task id="LOCAL-00004" summary="arrays">
+      <option name="closed" value="true" />
+      <created>1716552320069</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716552320069</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/APAC/Strings/LongSubWithoutRepeating.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/APAC/Strings/LongSubWithoutRepeating.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/APAC/Strings/LongSubWithoutRepeating.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/APAC/Strings/LongSubWithoutRepeating.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/APAC/Strings/LongSubWithoutRepeating.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/APAC/Strings/LongestPalindromicSubString.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/APAC/Strings/LongestPalindromicSubString.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/APAC/Strings/LongestPalindromicSubString.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/APAC/Strings/LongestPalindromicSubString.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/APAC/Strings/LongestPalindromicSubString.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/APAC/Strings/LongestPalindromicSubString.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrays" />
   </component>
 </project>

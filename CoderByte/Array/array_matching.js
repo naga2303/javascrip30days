@@ -47,3 +47,16 @@ function ArrayMatching(arr){
    
 }
 //https://stackoverflow.com/questions/50170614/js-sum-of-two-arrays-where-arrays-can-be-of-unequal-length
+    let first_Array = arr[0].slice(1,-1).split(",").map(Number)
+    let second_Array = arr[1].slice(1,-1).split(",").map(Number)
+    let sum = new Array()
+    //console.log(first_Array.length)
+    //console.log(second_Array.length)
+
+   //console.log(Math.max(first_Array.length,second_Array.length))
+
+   for(let i=0 ;i<Math.max(first_Array.length,second_Array.length);i++){
+     sum.push((first_Array[i] || 0) + (second_Array[i] || 0))
+   }
+   return sum.join("-")
+
